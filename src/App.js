@@ -11,12 +11,12 @@ function App() {
     <Topdiv/>
     <div className="flexcards">
 
-    <Cards src="/EC_FAQs_General.svg" title="General"/>
-    <Cards src="/EC_FAQs_PrivacyandSecurity.svg" title="Privacy and Security"/>
-    <Cards src="/EC_FAQs_AccountSetting.svg" title="Account Setting"/>
-    <Cards src="/EC_FAQs_Connections.svg" title="Connections"/>
-    <Cards src="/EC_FAQs_Events.svg" title="Events"/>
-    <Cards src="/EC_FAQs_JobSearch.svg" title="Job Search"/>
+    <Cards src="EC_FAQs_General.svg" title="General"/>
+    <Cards src="EC_FAQs_PrivacyandSecurity.svg" title="Privacy and Security"/>
+    <Cards src="EC_FAQs_AccountSetting.svg" title="Account Setting"/>
+    <Cards src="EC_FAQs_Connections.svg" title="Connections"/>
+    <Cards src="EC_FAQs_Events.svg" title="Events"/>
+    <Cards src="EC_FAQs_JobSearch.svg" title="Job Search"/>
     </div>
     <BottomDiv/>
     </>
