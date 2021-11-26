@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Mulish&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Mulish&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Asap Condensed', sans-serif; */
-  font-family: 'Mulish', sans-serif;
-}
-body{
-  
-
+  font-family: "Mulish", sans-serif;
 }
 /* .App {
   text-align: center;
@@ -48,68 +44,67 @@ body{
     transform: rotate(460deg);
   }
 } */
-h1{
-  font-size: 2.4rem !important; 
+h1 {
+  font-size: 2.4rem !important;
   font-weight: bold !important;
 }
-h2{
-  font-size: 2.2rem !important; 
+h2 {
+  font-size: 2.2rem !important;
   font-weight: bold !important;
 }
-h3{
+h3 {
   font-size: 1.1rem !important;
   margin: 0.5rem !important;
   font-weight: bold !important;
 }
 
-.text{
-  background-image:url('bg_img.png');
+.text {
+  background-image: url("bg_img.png");
   background-repeat: no-repeat;
   background-position: center;
-  
-color: #fff;
-text-align: center;
-  
+
+  color: #fff;
+  text-align: center;
+
   height: 10rem;
   /* padding: rem; */
   /* background-color: #4299e1; */
   display: flex;
-/* margin: 1rem; */
+  /* margin: 1rem; */
   flex-direction: column;
   font-size: large;
-  align-items:center;
+  align-items: center;
   justify-content: space-evenly;
 }
 
 /* card css */
-.card{
+.card {
   /* border: 1px solid green; */
   margin: 0.8rem;
   border-radius: 0.3rem;
   padding: 1rem;
-  box-shadow: 0.0rem 0.2rem 0.5rem -0.2rem rgba(130,130,130,0.75);
--webkit-box-shadow: 0.0rem 0.2rem 0.5rem -0.2rem rgba(130,130,130,0.75);
--moz-box-shadow: 0.0rem 0.2rem 0.5rem -0.2rem rgba(130,130,130,0.75);
+  box-shadow: 0rem 0.2rem 0.5rem -0.2rem rgba(130, 130, 130, 0.75);
+  -webkit-box-shadow: 0rem 0.2rem 0.5rem -0.2rem rgba(130, 130, 130, 0.75);
+  -moz-box-shadow: 0rem 0.2rem 0.5rem -0.2rem rgba(130, 130, 130, 0.75);
 }
-.card:hover{
-  box-shadow: -0.1rem 0.2rem 2.0rem -0.2rem rgba(153,141,141,0.75);
-  -webkit-box-shadow: -0.1rem 0.2rem 2.0rem -0.2rem rgba(153,141,141,0.75);
-  -moz-box-shadow: -0.1rem 0.2rem 2.0rem -0.2rem rgba(153,141,141,0.75);
+.card:hover {
+  box-shadow: -0.1rem 0.2rem 2rem -0.2rem rgba(153, 141, 141, 0.75);
+  -webkit-box-shadow: -0.1rem 0.2rem 2rem -0.2rem rgba(153, 141, 141, 0.75);
+  -moz-box-shadow: -0.1rem 0.2rem 2rem -0.2rem rgba(153, 141, 141, 0.75);
 }
-.card-text{
+.card-text {
   text-align: center;
   margin-top: 0.8rem;
 }
-.flexcards{
-  /* background-color: black; */
-  border: 1px solid black;
+.flexcards {
+  /* border: 1px solid black; */
   width: 80vw;
   margin: auto;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-wrap: wrap;
 }
-.centering-div{
+.centering-div {
   /* text-align: center; */
   margin: 1rem;
   display: flex;
@@ -120,13 +115,13 @@ text-align: center;
   /* justify-content: center; */
 }
 /* responsiveness  */
-@media screen and (min-width:375px) and (max-width:768px) {
-  html{
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  html {
     font-size: 55%;
   }
 }
-  @media screen and (max-width:374px) {
-    html{
-      font-size: 45%;
-    }
+@media screen and (max-width: 374px) {
+  html {
+    font-size: 45%;
+  }
 }
