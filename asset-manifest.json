@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/engineerscradle/static/css/main.e3ba17d8.chunk.css",
+    "main.js": "/engineerscradle/static/js/main.5e57ef4d.chunk.js",
+    "main.js.map": "/engineerscradle/static/js/main.5e57ef4d.chunk.js.map",
+    "runtime-main.js": "/engineerscradle/static/js/runtime-main.80169b27.js",
+    "runtime-main.js.map": "/engineerscradle/static/js/runtime-main.80169b27.js.map",
+    "static/js/2.090378d0.chunk.js": "/engineerscradle/static/js/2.090378d0.chunk.js",
+    "static/js/2.090378d0.chunk.js.map": "/engineerscradle/static/js/2.090378d0.chunk.js.map",
+    "static/js/3.6aec582e.chunk.js": "/engineerscradle/static/js/3.6aec582e.chunk.js",
+    "static/js/3.6aec582e.chunk.js.map": "/engineerscradle/static/js/3.6aec582e.chunk.js.map",
+    "index.html": "/engineerscradle/index.html",
+    "static/css/main.e3ba17d8.chunk.css.map": "/engineerscradle/static/css/main.e3ba17d8.chunk.css.map",
+    "static/js/2.090378d0.chunk.js.LICENSE.txt": "/engineerscradle/static/js/2.090378d0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/engineerscradle/static/media/bg_img.37bbaf9c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80169b27.js",
+    "static/js/2.090378d0.chunk.js",
+    "static/css/main.e3ba17d8.chunk.css",
+    "static/js/main.5e57ef4d.chunk.js"
+  ]
+}
