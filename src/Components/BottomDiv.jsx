@@ -6,15 +6,17 @@ export default function BottomDiv() {
     return (
         <>
         
-
-<Stack direction="row" spacing={3}>
-  <Button leftIcon={<MdOutlineMailOutline />} colorScheme="blue" variant="outline">
+<div className="centering-div"> 
+<h3>Need more help?</h3>
+<Stack direction="row" spacing={4} align="center">
+  <Button  leftIcon={<MdOutlineMailOutline />} colorScheme="blue" variant="outline">
     Settings
   </Button>
   <Button leftIcon={<IoMdContacts />} colorScheme="blue" variant="outline">
     Call us
   </Button>
 </Stack>   
+</div>
         </>
     )
 }

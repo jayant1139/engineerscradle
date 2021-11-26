@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Mulish&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Asap Condensed', sans-serif; */
+  font-family: 'Mulish', sans-serif;
+}
 body{
-  font-family: 'Asap Condensed', sans-serif;
-font-family: 'Mulish', sans-serif;
+  
+
 }
 /* .App {
   text-align: center;
@@ -42,24 +49,30 @@ font-family: 'Mulish', sans-serif;
   }
 } */
 h1{
-  font-size: 2rem !important;
-  
+  font-size: 2.4rem !important; 
+  font-weight: bold !important;
+}
+h2{
+  font-size: 2.2rem !important; 
   font-weight: bold !important;
 }
 h3{
-  font-size: 1.2rem !important;
-  
+  font-size: 1.1rem !important;
+  margin: 0.5rem !important;
+  font-weight: bold !important;
 }
 
 .text{
-  /* background:; */
-  /* background-repeat: no-repeat; */
+  background-image:url('bg_img.png');
+  background-repeat: no-repeat;
+  background-position: center;
   
 color: #fff;
 text-align: center;
   
-  height: 8rem;
-  background-color: #4299e1;
+  height: 10rem;
+  /* padding: rem; */
+  /* background-color: #4299e1; */
   display: flex;
 /* margin: 1rem; */
   flex-direction: column;
@@ -95,4 +108,25 @@ text-align: center;
   display: flex;
   justify-content:center;
   flex-wrap: wrap;
+}
+.centering-div{
+  /* text-align: center; */
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* margin: auto; */
+  align-items: center;
+  /* justify-content: center; */
+}
+/* responsiveness  */
+@media screen and (min-width:375px) and (max-width:768px) {
+  html{
+    font-size: 55%;
+  }
+}
+  @media screen and (max-width:374px) {
+    html{
+      font-size: 45%;
+    }
 }

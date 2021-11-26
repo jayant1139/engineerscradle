@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-
 import Heading from './Components/Heading';
 import Cards from './Components/Cards';
 import BottomDiv from './Components/BottomDiv';
+import Topdiv from './Components/Topdiv';
 
 function App() {
   return (
     <>
     <Heading/>
+    <Topdiv/>
     <div className="flexcards">
 
     <Cards src="/EC_FAQs_General.svg" title="General"/>
